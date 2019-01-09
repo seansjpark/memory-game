@@ -39,5 +39,4 @@ function flipCard() {
    }, 1500);
  }
  
- 
 cards.forEach(card => card.addEventListener('click', flipCard));
