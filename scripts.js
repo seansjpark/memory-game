@@ -38,5 +38,5 @@ function flipCard() {
      secondCard.classList.remove('flip');
    }, 1500);
  }
- 
+ /*testing*/
 cards.forEach(card => card.addEventListener('click', flipCard));
